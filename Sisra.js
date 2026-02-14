@@ -19,16 +19,16 @@ for (let i = 0; i < 15; i++) {
 
 // ✍️ Texto máquina de escribir para Ayliiin
 const texto = [
-  "Ayliiin 💛",
+  "Siara 💗",
   "",
   "Quiero decirte algo muy especial...",
   "Me gusta mucho pasar tiempo contigo,",
   "porque cada momento a tu lado es especial. ✨",
   "",
-  "Hoy quiero regalarte girasoles,",
-  "aunque no sean reales, espero te guste 🌻💛",
+  "Hoy quiero regalarte estas flores amarillas,",
+  "aunque no sean reales, cada te quiero si lo es 🌻💛",
   "",
-  "Me alegra haberte conocido 💫"
+  "Me alegra haberte conocido 💫 Feliz 14 💗"
 ];
 const destino = document.getElementById("texto-maquina");
 let linea = 0, caracter = 0;
@@ -67,3 +67,4 @@ boton.onclick = () => {
 document.getElementById("download-pdf").onclick = () => {
   window.location.href = "carta.pdf";
 };
+
